@@ -34,6 +34,6 @@ with col1:
     )
 
 with col2:
-    st.info("📸 **Image Placeholder**\n\nManual AU-E Testing Setup")
+    st.image("images/gingy_coat.png")
 
 add_footer()

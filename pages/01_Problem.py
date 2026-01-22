@@ -8,26 +8,32 @@ set_page()
 st.title("⚠️ The Problem: Manual AU-E Is Holding Us Back")
 st.divider()
 
-st.markdown(
-    """
-    ### Current Limitations
-    
-    - **Variable force** — operator-dependent impacts reduce consistency
-    - **Limited throughput** — capped by manual labor
-    - **Low client perception** — viewed as outdated, pre-automation
-    - **Enterprise misalignment** — clients expect automated quality systems
-    
-    ### Business Impact
-    
-    | Metric | Current |
-    |--------|--------|
-    | **Jobs/year** | ~15 |
-    | **Data consistency** | ±15% variance |
-    | **Gross margin** | 67% |
-    | **Growth potential** | Limited |
-    
-    **→ We're using a hammer to conduct precision ultrasonic analysis.**
-    """
-)
+col1, col2 = st.columns([1.5, 1])
+
+with col1:
+    st.markdown(
+        """
+        ### Current Limitations
+        
+        - **Limited Accuracy** — inconsistent impact force affects data quality
+        - **Accessibility Issues** — key areas of interest are unreachable for operators
+        - **Scalability Challenges** — manual processes limit growth potential
+        - **Enterprise misalignment** — clients expect automated quality systems
+        
+        ### Business Impact
+        
+        | Metric | Current |
+        |--------|--------|
+        | **Jobs/year** | ~15 |
+        | **Data consistency** | ±15% variance |
+        | **Gross margin** | 65% |
+        | **Growth potential** | Limited |
+        
+        **→ We're using a hammer to conduct precision NDT analysis.**
+        """
+    )
+
+with col2:
+    st.info("📸 **Image Placeholder**\n\nManual AU-E Testing Setup")
 
 add_footer()

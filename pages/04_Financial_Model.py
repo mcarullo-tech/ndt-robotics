@@ -21,35 +21,30 @@ st.write("Baseline vs Robotics Development Scenarios")
 # ============================================================
 
 with st.expander("📊 Adjust Assumptions", expanded=False):
-    col_base1, col_base2 = st.columns(2)
-    col_robotics1, col_robotics2 = st.columns(2)
+    tab_baseline, tab_robotics = st.tabs(["📋 Baseline AU-E", "🤖 Robotics Development"])
+    
+    with tab_baseline:
+        col_base1, col_base2 = st.columns(2)
+        with col_base1:
+            baseline_jobs = st.slider("Jobs per year", 5, 30, 12, key="baseline_jobs")
+            baseline_rev = st.slider("Revenue per job (CAD)", 50_000, 200_000, 120_000, step=5_000, key="baseline_rev")
+        with col_base2:
+            baseline_exp = st.slider("Expense per job (CAD)", 10_000, 100_000, 40_000, step=5_000, key="baseline_exp")
+            baseline_shrink = st.slider("Annual shrink rate (%)", -20, 20, -5, key="baseline_shrink") / 100
 
-    # --- Baseline inputs ---
-    with col_base1:
-        st.subheader("Baseline AU-E")
-        baseline_jobs = st.slider("Jobs per year", 5, 30, 12, key="baseline_jobs")
-        baseline_rev = st.slider("Revenue per job (CAD)", 50_000, 200_000, 120_000, step=5_000, key="baseline_rev")
-
-    with col_base2:
-        st.subheader("")
-        baseline_exp = st.slider("Expense per job (CAD)", 10_000, 100_000, 40_000, step=5_000, key="baseline_exp")
-        baseline_shrink = st.slider("Annual shrink rate (%)", -20, 20, -5, key="baseline_shrink") / 100
-
-    # --- Robotics inputs ---
-    with col_robotics1:
-        st.subheader("Robotics Development")
-        stage1_cost = st.number_input("Stage 1 cost (CAD)", value=100_000, key="stage1_cost")
-        stage1_duration = st.slider("Stage 1 duration (years)", 0.1, 2.0, 0.5, key="stage1_duration")
-        stage2_cost = st.number_input("Stage 2 cost (CAD)", value=350_000, key="stage2_cost")
-        stage2_duration = st.slider("Stage 2 duration (years)", 0.5, 3.0, 1.5, key="stage2_duration")
-
-    with col_robotics2:
-        st.subheader("")
-        uplift1 = st.slider("Uplift after Stage 1 (%)", 0, 100, 20, key="uplift1") / 100
-        uplift2 = st.slider("Uplift after Stage 2 (%)", 0, 200, 50, key="uplift2") / 100
-        rev_growth = st.slider("Revenue growth (%)", 0, 20, 2, key="rev_growth") / 100
-        exp_reduction = st.slider("Expense reduction (%)", 0, 50, 10, key="exp_reduction") / 100
-
+    with tab_robotics:
+        col_robotics1, col_robotics2 = st.columns(2)
+        with col_robotics1:
+            stage1_cost = st.number_input("Stage 1 cost (CAD)", value=100_000, key="stage1_cost")
+            stage1_duration = st.slider("Stage 1 duration (years)", 0.1, 2.0, 0.5, key="stage1_duration")
+            stage2_cost = st.number_input("Stage 2 cost (CAD)", value=400_000, key="stage2_cost")
+            stage2_duration = st.slider("Stage 2 duration (years)", 0.5, 3.0, 1.5, key="stage2_duration")
+        with col_robotics2:
+            uplift1 = st.slider("Uplift after Stage 1 (%)", 0, 100, 20, key="uplift1") / 100
+            uplift2 = st.slider("Uplift after Stage 2 (%)", 0, 200, 50, key="uplift2") / 100
+            rev_growth = st.slider("Revenue growth (%)", 0, 20, 2, key="rev_growth") / 100
+            exp_reduction = st.slider("Expense reduction (%)", 0, 50, 10, key="exp_reduction") / 100
+    
     discount_rate = st.slider("Discount rate for NPV (%)", 0, 20, 8, key="discount_rate") / 100
 
 years = np.arange(0, 6)
@@ -279,31 +274,6 @@ st.pyplot(fig2)
 
 st.info("💡 Tip: Expand the 'Adjust Assumptions' section above to modify model parameters.")
 
-# ============================================================
-# SUMMARY METRICS TABLE
-# ============================================================
-
-st.markdown("---")
-st.header("📈 Summary Metrics")
-
-summary_data = {
-    'Metric': ['NPV (5-year)', 'IRR', 'Break-Even Year', 'Cumulative Advantage'],
-    'Baseline': [
-        f"${round(baseline_npv/1000)*1000:,.0f}",
-        "N/A",
-        "N/A",
-        "—"
-    ],
-    'Robotics': [
-        f"${round(robotics_npv/1000)*1000:,.0f}",
-        f"{robotics_irr*100:.1f}%" if robotics_irr else "N/A",
-        f"Year {breakeven_year:.1f}" if breakeven_year is not None else "Never",
-        f"${cumulative_advantage:,.0f}"
-    ]
-}
-
-summary_df = pd.DataFrame(summary_data)
-st.dataframe(summary_df, use_container_width=True, hide_index=True)
 
 # ============================================================
 # KEY INSIGHTS

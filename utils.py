@@ -84,7 +84,7 @@ def add_footer() -> None:
         <hr style='margin-top: 3rem; border: 1px solid #E0E6ED;'>
         <p style='text-align: center; color: #666; font-size: 0.9rem; margin-top: 2rem;'>
         <strong>NDT Robotics</strong> | Reinventing Acousto-Ultrasonic Inspection<br>
-        <span style='font-size: 0.85rem;'>This is a confidential investor pitch. For questions, see the Contact page.</span>
+        © 2026 NDT Robotics. All rights reserved.
         </p>
         """,
         unsafe_allow_html=True,

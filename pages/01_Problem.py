@@ -15,25 +15,44 @@ with col1:
         """
         ### Current Limitations
         
-        - **Limited Accuracy** — inconsistent impact force affects data quality
-        - **Accessibility Issues** — key areas of interest are unreachable for operators
-        - **Scalability Challenges** — manual processes limit growth potential
-        - **Enterprise misalignment** — clients expect automated quality systems
-        
+        - **Limited Accuracy** - Human error in data collection introduces additional uncertainty which cannot easily be accounted for.
+        - **Accessibility Issues** — Key areas of interest to furnace operators are inaccessible to human operators.
+        - **Scalability Challenges** — Heavy reliance on human operators limits growth potential; we will always be constrained by labor.
+        - **Enterprise misalignment** — Clients expect high-tech precision solutions to inform multi-million dollar decisions.
         ### Business Impact
         
         | Metric | Current |
         |--------|--------|
         | **Jobs/year** | ~15 |
-        | **Data consistency** | ±15% variance |
-        | **Gross margin** | 65% |
+        | **Gross margin** | 67% |
         | **Growth potential** | Limited |
         
-        **→ We're using a hammer to conduct precision NDT analysis.**
         """
     )
 
+    
+    
+    st.markdown(
+        """
+        <div style="
+            margin-top: 10px;
+            font-size: 1.6rem;
+            line-height: 1.6;
+            font-style: italic;
+            color: #ffffff;
+        ">
+            “We’re using a hammer to conduct precision NDT analysis??”
+        </div>
+        <div style="font-size: 1.2rem; color:#888; margin-top: 6px;">
+            — Internal stakeholder
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+
 with col2:
-    st.image("images/gingy_coat.png")
+    st.image("images/hammering.jpg")
 
 add_footer()

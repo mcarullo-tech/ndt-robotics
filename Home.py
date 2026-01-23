@@ -5,14 +5,14 @@ from utils import set_page, add_footer
 
 set_page()
 
-st.title("🤖 Reinventing Acousto-Ultrasonic Inspection Through Robotics")
+st.title("Reinventing Acousto-Ultrasonic Inspection Through Robotics")
 st.subheader("A Two-Stage Automation Platform for the Next Era of AU-E")
 
 st.divider()
 
 st.markdown(
 """
-## Welcome to NDT Robotics' Investor Dashboard
+## Welcome to NDT Robotics Investor Dashboard
 
 An interactive financial platform showing how robotics transforms AU-E inspection into a scalable, high-margin business.
 
@@ -34,9 +34,10 @@ st.markdown(
 """
 ### Why This Matters
 
-- **Market demand** is shifting toward automated inspection
-- Manual AU-E limits scalability and profitability
-- **Robotics** repositions us as a premium, high-tech service provider
+- NDT Inspection market is maturing; many competitors now offer robotic & AI integrated solutions.
+- Manual AU-E is slow and plagued with error; clients demand accuracy to inform multi-million dollar decisions.
+- Robotics repositions us as a premium, high-tech service provider.
+
 
 ### Our Two-Stage Plan
 

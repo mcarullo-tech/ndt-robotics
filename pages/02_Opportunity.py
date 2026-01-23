@@ -16,14 +16,15 @@ with col1:
         ### What Robotics Delivers
         
         **Technical:**
-        - Consistent force (±5% vs. ±15% manual)
-        - 3-5x throughput increase
-        - Removes operator dependency
+        - Precision-Level Accuracy: Remove human error and produce consistent and repeatable results.
+        - Increased Accessibility: Robotic solutions allows us to access key areas previously inaccessible to humans.
+        - Operational Efficiency: Inspections can be completed in less time and with less resources.
         
+
         **Business:**
-        - Premium pricing ($150K vs. $120K per job)
-        - Margin expansion (83% vs. 67%)
-        - Enterprise client positioning
+        - Margin Expansion (83% vs. 67%) based on reduced operational costs
+        - Projected uplift (2x in Year 5) from improved capabilities
+        - Market Re-Positioning: Build confidence with existing clients, attract new clients with high-tech solutions.
         
         ### Unit Economics Transformation
         
@@ -31,15 +32,15 @@ with col1:
         |--------|--------|---------|--------|
         | **Jobs/year** | 15 | 30 | +100% |
         | **Revenue/job** | $120K | $150K | +25% |
-        | **Margin** | 65% | 83% | +18 pts |
+        | **Margin** | 67% | 83% | +18 pts |
         | **Annual revenue** | $1.8M | $4.5M | +150% |
         
-        **→ From niche and archaic technique to premium and scalable platform**
+        **From niche and archaic technique to premium and scalable platform**
         """
     )
 
 with col2:
-    st.info("📸 **Image Placeholder**\n\nRobotic AU-E Platform")
+    st.image("images/floaty_boaty.gif", width=800)
 
 
 add_footer()

@@ -26,10 +26,10 @@ with st.expander("📊 Adjust Assumptions", expanded=False):
     with tab_baseline:
         col_base1, col_base2 = st.columns(2)
         with col_base1:
-            baseline_jobs = st.slider("Jobs per year", 5, 30, 12, key="baseline_jobs")
-            baseline_rev = st.slider("Revenue per job (CAD)", 50_000, 200_000, 120_000, step=5_000, key="baseline_rev")
+            baseline_jobs = st.slider("Jobs per year", 20, 60, 40, key="baseline_jobs")
+            baseline_rev = st.slider("Revenue per job (CAD)", 50_000, 200_000, 150_000, step=5_000, key="baseline_rev")
         with col_base2:
-            baseline_exp = st.slider("Expense per job (CAD)", 10_000, 100_000, 40_000, step=5_000, key="baseline_exp")
+            baseline_exp = st.slider("Expense per job (CAD)", 10_000, 100_000, 20_000, step=5_000, key="baseline_exp")
             baseline_shrink = st.slider("Annual shrink rate (%)", -20, 20, -5, key="baseline_shrink") / 100
 
     with tab_robotics:
@@ -40,8 +40,8 @@ with st.expander("📊 Adjust Assumptions", expanded=False):
             stage2_cost = st.number_input("Stage 2 cost (CAD)", value=400_000, key="stage2_cost")
             stage2_duration = st.slider("Stage 2 duration (years)", 0.5, 3.0, 1.5, key="stage2_duration")
         with col_robotics2:
-            uplift1 = st.slider("Uplift after Stage 1 (%)", 0, 100, 20, key="uplift1") / 100
-            uplift2 = st.slider("Uplift after Stage 2 (%)", 0, 200, 50, key="uplift2") / 100
+            uplift1 = st.slider("Uplift after Stage 1 (%)", 0, 100, 5, key="uplift1") / 100
+            uplift2 = st.slider("Uplift after Stage 2 (%)", 0, 200, 20, key="uplift2") / 100
             rev_growth = st.slider("Revenue growth (%)", 0, 20, 2, key="rev_growth") / 100
             exp_reduction = st.slider("Expense reduction (%)", 0, 50, 10, key="exp_reduction") / 100
     

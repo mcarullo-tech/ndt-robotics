@@ -13,39 +13,29 @@ col1, col2 = st.columns([1.5, 1])
 with col1:
     st.markdown(
         """
-        ### The Opportunity
-        
-        - **Problem:** Manual AU-E is labor-constrained, inconsistent, and outdated  
-        - **Solution:** $500K investment in two-stage robotics platform  
-        - **Returns:** NPV $7.2M, IRR **165%** over 5 years 
+        ### The Investment Case
+
+        - **We are not starting from zero** — AU‑E is an established, revenue‑generating service with consistent demand. The business already funds itself; no negative cash position at any point.
+        - **The problem:** Manual AU‑E is labor‑limited, inconsistent, and unable to meet modern client expectations.
+        - **The solution:** A $500K, two‑stage automation roadmap (Precision Impactor + Robotic Platform).
+        - **The returns:** NPV $7.2M, IRR **165%** over 5 years driven by higher accuracy, greater accessibility, and reduced labor dependence.
 
         ---
-        
+
         ### Why This Works
-        
-        | Factor | Why It Matters |
-        |--------|---------|
-        | **Market timing** | Enterprise clients demand automation now |
-        | **Proven tech** | Not R&D—integration of existing robotics |
-        | **Strong returns** | NPV $7.2M, IRR **165%** over 5 years |
-        | **De-risked plan** | Stage 1 funds Stage 2; early wins |
-        
-        ---
-        
-        ### Financial Summary
-        
-        **Stage 1 ($100K, 6 mo):**
-        - **+20%** capacity, validates market demand
-        - Payback in 12-18 months
-        - Generates cash for Stage 2
 
-        **Stage 2 ($400K, 12-18 mo):**
-        - **+150%** capacity, premium positioning
-        - Strategic asset for growth
+        | Factor | Why It Matters |
+        |--------|----------------|
+        | **Existing Market** | AU‑E already produces stable revenue — automation accelerates growth, not create it from scratch. |
+        | **Market Timing** | Enterprise clients are actively seeking automated, high‑tech inspection solutions. |
+        | **Proven Technology** | We’re integrating known robotics — not speculative R&D. |
+        | **De‑Risked Rollout** | Stage 1 generates early gains and cash flow, reducing Stage 2 funding pressure. |
+        | **Clear Value Story** | Better accuracy + deeper coverage = better client decisions and higher willingness to pay. |
+
         """
     )
 
 with col2:
-    st.info("📸 **Image Placeholder**\n\nInvestment Returns & Growth Trajectory")
+    st.image("images/BRO.png")
 
 add_footer()

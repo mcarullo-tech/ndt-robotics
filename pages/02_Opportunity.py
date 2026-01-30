@@ -15,25 +15,23 @@ with col1:
         """
         ### What Robotics Delivers
         
-        **Technical:**
-        - Precision-Level Accuracy: Remove human error and produce consistent and repeatable results.
-        - Increased Accessibility: Robotic solutions allows us to access key areas previously inaccessible to humans.
-        - Operational Efficiency: Inspections can be completed in less time and with less resources.
-        
+        **Technical Benefits**
+        - **Higher Accuracy** — Robotics eliminates strike variability and human error, producing consistent, repeatable data with higher confidence.
+        - **Improved Accessibility** — Robots can access critical areas that are unsafe or physically impossible for human operators.
+        - **Greater Coverage** — More surface area can be inspected in the same outage window, reducing blind spots in life prediction and reline planning.
+        - **Operational Efficiency** — Faster inspections with fewer people involved, reducing outage time and resource requirements.
 
-        **Business:**
-        - Margin Expansion (83% vs. 67%) based on reduced operational costs
-        - Projected uplift (2x in Year 5) from improved capabilities
-        - Market Re-Positioning: Build confidence with existing clients, attract new clients with high-tech solutions.
-        
-        ### Unit Economics Transformation
-        
-        | Metric | Manual | Robotic | Change |
-        |--------|--------|---------|--------|
-        | **Jobs/year** | 15 | 30 | +100% |
-        | **Revenue/job** | $120K | $150K | +25% |
-        | **Margin** | 67% | 83% | +18 pts |
-        | **Annual revenue** | $1.8M | $4.5M | +150% |
+        **Business Benefits**
+        - **Reduced Labor Dependence** — Fewer human operators required, lowering operational costs and increasing throughput without increasing headcount.
+        - **Margin Expansion** — Automation widens margins by reducing labor and on-site time.
+        - **Stronger Client Confidence** — More accurate, higher‑coverage data leads to better decisions on repairs, campaign life, and reline timing.
+        - **Competitive Differentiation** — Repositions us as a high‑tech, robotics‑enabled provider in a market increasingly filled with low-cost, manual competitors.
+
+        **Client Value (Quantifiable)**
+        - **Reduced Risk of Unplanned Reline** — Accessing previously unreachable areas can reveal early-stage wear that would otherwise go undetected, potentially saving millions in emergency downtime.
+        - **Optimized Campaign Life** — More accurate thickness data allows operators to safely extend furnace life without increasing risk exposure.
+        - **Targeted Maintenance** — Higher-resolution inspection enables precision repairs instead of conservative full‑area replacements, reducing maintenance cost.
+        - **Shorter Outage Windows** — Faster robotic scans reduce furnace downtime, directly translating into higher production uptime and revenue.
         
         **From niche and archaic technique to premium and scalable platform**
         """

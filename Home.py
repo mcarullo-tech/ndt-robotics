@@ -5,7 +5,7 @@ from utils import set_page, add_footer
 
 set_page()
 
-st.title("Reinventing Acousto-Ultrasonic Inspection Through Robotics")
+st.title("Reinventing AU-E Inspection Through Robotics")
 st.subheader("A Two-Stage Automation Platform for the Next Era of AU-E")
 
 st.divider()
@@ -34,10 +34,12 @@ st.markdown(
 """
 ### Why This Matters
 
-- NDT Inspection market is maturing; many competitors now offer robotic & AI integrated solutions.
-- Manual AU-E is slow and plagued with error; clients demand accuracy to inform multi-million dollar decisions.
-- Robotics repositions us as a premium, high-tech service provider.
-
+- The NDT inspection market is maturing, and enterprise clients now expect high‑tech, automated solutions.
+- We position ourselves as the “gold standard” of furnace NDT and charge premium prices, but the on-site experience still looks manual and low‑tech.
+- This creates a clear mismatch between what clients expect from a premium provider and what we currently deliver.
+- Clients are aware that robotic and AI‑integrated inspection systems exist, and they increasingly expect that level of sophistication.
+- Meanwhile, our patent has expired, and low-cost, low-tech competitors keep entering the market.
+- These competitors appear “good enough” compared to our current execution, making it harder to defend premium pricing without upgrading our technology.
 
 ### Our Two-Stage Plan
 

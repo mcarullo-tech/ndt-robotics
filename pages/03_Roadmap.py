@@ -14,33 +14,34 @@ col1, col2 = st.columns([1.5, 1])
 with col1:
     st.markdown(
         """
-        ### Stage 1: Precision Impactor (6 months, $100K)
-        
-        - **What:** Automated impact system replacing manual hammer  
-        - **Impact:** **+20%** capacity, validates market demand  
-        - **ROI:** Payback in 12-18 months  
-        - Builds confidence in tool use
+        ### Stage 1: Precision Impactor (6-8 months, $100K)
+
+        - **What:** Automated impact device replacing manual hammer strikes.
+        - **Why it matters:** Immediate improvement in accuracy and repeatability; higher data quality is noticeable to clients and increases trust in reported results.
+        - **Benefits:** Positions us as a high‑tech provider early; small but meaningful uplift in perceived value; generates incremental revenue that helps fund Stage 2.
+        - **Risk Level:** Low — straightforward hardware development with fast deployment and site-time to build operational experience.
         
         ---
 
-        ### Stage 2: Full Robotic Platform (12-18 months, $400K)
+        ### Stage 2: Full Robotic Platform (12–18 months, $400K)
 
-        - **What:** Industrial robotic arm + AU-E integration + AI software  
-        - **Impact:** **+150%** capacity, premium market positioning
-        - **ROI:** Strategic asset for scalable growth
+        - **What:** Industrial robotic arm + AU‑E integration + automation software.
+        - **Why it matters:** Near‑total automation dramatically boosts accessibility (under-hearth, taphole, cooling plates), eliminates safety barriers, and expands coverage by 3–5×.
+        - **Benefits:** Cuts inspection time by 30–50%, reduces outage duration, increases client uptime (high 6‑ to 7‑figure annual impact for smelters), and unlocks premium market positioning.
+        - **Risk Level:** De‑risked — leverages proven robotic platforms and insights gained from Stage 1 deployment.
         
         ---
         
         ### Why Two Stages?
         
-        1. Stage 1 can be deployed quickly for early benefits
-        2. Stage 1 cash partially funds Stage 2
-        3. Proven technologies—not R&D risk
-        4. Demonstrate progress to stakeholders
+        1. Stage 1 delivers immediate accuracy and quality gains with minimal risk.
+        2. Early uplift and improved client perception create cash flow that partially funds Stage 2.
+        3. Stage 1 field experience reduces integration challenges in Stage 2.
+        4. Stage 2 then delivers the full value: coverage, speed, safety, and premium positioning.
         """
     )
 
 with col2:
-    st.info("📸 **Image Placeholder**\n\nRoadmap Timeline/Milestones")
+    st.image("images/Designer (4).png")
 
 add_footer()

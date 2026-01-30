@@ -15,23 +15,14 @@ with col1:
         """
         ### Current Limitations
         
-        - **Limited Accuracy** - Human error in data collection introduces additional uncertainty which cannot easily be accounted for.
-        - **Accessibility Issues** — Key areas of interest to furnace operators are inaccessible to human operators.
+        - **Limited Accuracy & Repeatability** - Human operator introduces variability in striking force and measurement location, both critical for accuracy.
+        - **Accessibility Issues** — Key areas of interest to furnace operators are difficult or impossible to access.
         - **Scalability Challenges** — Heavy reliance on human operators limits growth potential; we will always be constrained by labor.
         - **Enterprise misalignment** — Clients expect high-tech precision solutions to inform multi-million dollar decisions.
-        ### Business Impact
-        
-        | Metric | Current |
-        |--------|--------|
-        | **Jobs/year** | ~15 |
-        | **Gross margin** | 67% |
-        | **Growth potential** | Limited |
         
         """
     )
 
-    
-    
     st.markdown(
         """
         <div style="

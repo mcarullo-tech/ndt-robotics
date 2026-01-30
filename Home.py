@@ -24,9 +24,9 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.metric("Total Investment Required", "$550K", "Invested over 2 years")
 with col2:
-    st.metric("Internal Rate of Return", "972%", "Annualized over 5 years")
+    st.metric("Internal Rate of Return", "872%", "Annualized over 5 years")
 with col3:
-    st.metric("Year 5 Advantage", "$3,360,000", "Annual cash flow improvement")
+    st.metric("Year 5 Advantage", "$3,356,000", "Annual cash flow improvement")
 
 st.divider()
 

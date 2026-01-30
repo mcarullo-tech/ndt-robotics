@@ -19,6 +19,7 @@ with col1:
         - **What:** Automated impact system replacing manual hammer  
         - **Impact:** **+20%** capacity, validates market demand  
         - **ROI:** Payback in 12-18 months  
+        - Builds confidence in tool use
         
         ---
 

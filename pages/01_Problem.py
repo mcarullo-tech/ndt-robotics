@@ -15,10 +15,10 @@ with col1:
         """
         ### Current Limitations
         
-        - **Limited Accuracy & Repeatability** - Human operator introduces variability in striking force and measurement location, both critical for accuracy.
-        - **Accessibility Issues** — Key areas of interest to furnace operators are difficult or impossible to access.
-        - **Scalability Challenges** — Heavy reliance on human operators limits growth potential; we will always be constrained by labor.
-        - **Enterprise misalignment** — Clients expect high-tech precision solutions to inform multi-million dollar decisions.
+        - **Inconsistent Accuracy** — Manual striking introduces variability in force, angle, and location, reducing confidence in the data.
+        - **Restricted Access** — Critical furnace zones are unsafe or physically unreachable, leaving major data gaps.
+        - **Labor‑Limited Throughput** — Inspection speed and capacity depend entirely on human operators; scaling requires more people, not better productivity.
+        - **Misaligned With Client Expectations** — Enterprise clients making multi‑million‑dollar decisions now expect automated, high‑precision inspection tools, not manual hammer-based workflows.
         
         """
     )

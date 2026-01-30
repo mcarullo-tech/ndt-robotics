@@ -1,6 +1,5 @@
 streamlit
 numpy
-matplotlib.pyplot
-matplotlib.ticker
+matplotlib
 numpy_financial
 pandas

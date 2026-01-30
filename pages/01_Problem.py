@@ -53,6 +53,6 @@ with col1:
 
 
 with col2:
-    st.image("../images/hammering.JPG")
+    st.image("images/hammering.JPG")
 
 add_footer()

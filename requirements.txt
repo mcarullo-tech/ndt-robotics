@@ -1,0 +1,6 @@
+streamlit
+numpy
+matplotlib.pyplot
+matplotlib.ticker
+numpy_financial
+pandas

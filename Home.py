@@ -22,11 +22,11 @@ An interactive financial platform showing how robotics transforms AU-E inspectio
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.metric("Total Investment Required", "$500K", "Invested over 2 years")
+    st.metric("Total Investment Required", "$550K", "Invested over 2 years")
 with col2:
-    st.metric("Internal Rate of Return", "165%", "Annualized over 5 years")
+    st.metric("Internal Rate of Return", "972%", "Annualized over 5 years")
 with col3:
-    st.metric("Year 5 Advantage", "$1,225,600", "Annual cash flow improvement")
+    st.metric("Year 5 Advantage", "$3,360,000", "Annual cash flow improvement")
 
 st.divider()
 
@@ -43,8 +43,8 @@ st.markdown(
 
 ### Our Two-Stage Plan
 
-- **Stage 1**: Precision impactor tooling ($100K, 6 months) — immediate gains  
-- **Stage 2**: Full robotic platform ($400K, 18 months) — complete automation
+- **Stage 1**: Precision impactor tooling ($150K, 8-12 months) — immediate gains  
+- **Stage 2**: Full robotic platform ($400K, 12-18 months) — complete automation
 
 Use the sidebar to explore the Problem, Opportunity, Roadmap, Financial Model, and Investment Case.
 """

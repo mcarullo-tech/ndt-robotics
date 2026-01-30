@@ -35,7 +35,7 @@ with st.expander("📊 Adjust Assumptions", expanded=False):
     with tab_robotics:
         col_robotics1, col_robotics2 = st.columns(2)
         with col_robotics1:
-            stage1_cost = st.number_input("Stage 1 cost (CAD)", value=100_000, key="stage1_cost")
+            stage1_cost = st.number_input("Stage 1 cost (CAD)", value=150_000, key="stage1_cost")
             stage1_duration = st.slider("Stage 1 duration (years)", 0.1, 2.0, 0.5, key="stage1_duration")
             stage2_cost = st.number_input("Stage 2 cost (CAD)", value=400_000, key="stage2_cost")
             stage2_duration = st.slider("Stage 2 duration (years)", 0.5, 3.0, 1.5, key="stage2_duration")

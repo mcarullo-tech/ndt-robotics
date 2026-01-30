@@ -17,8 +17,8 @@ with col1:
 
         - **We are not starting from zero** — AU‑E is an established, revenue‑generating service with consistent demand. The business already funds itself; no negative cash position at any point.
         - **The problem:** Manual AU‑E is labor‑limited, inconsistent, and unable to meet modern client expectations.
-        - **The solution:** A $500K, two‑stage automation roadmap (Precision Impactor + Robotic Platform).
-        - **The returns:** NPV $7.2M, IRR **165%** over 5 years driven by higher accuracy, greater accessibility, and reduced labor dependence.
+        - **The solution:** A $550K, two‑stage automation roadmap (Precision Impactor + Robotic Platform).
+        - **The returns:** NPV $31.7M, IRR **972%** over 5 years driven by higher accuracy, greater accessibility, and reduced labor dependence.
 
         ---
 

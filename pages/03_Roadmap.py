@@ -14,7 +14,7 @@ col1, col2 = st.columns([1.5, 1])
 with col1:
     st.markdown(
         """
-        ### Stage 1: Precision Impactor (6-8 months, $100K)
+        ### Stage 1: Precision Impactor (6-8 months, $150K)
 
         - **What:** Automated impact device replacing manual hammer strikes.
         - **Why it matters:** Immediate improvement in accuracy and repeatability; higher data quality is noticeable to clients and increases trust in reported results.

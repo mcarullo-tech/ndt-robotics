@@ -43,7 +43,7 @@ st.markdown(
 
 ### Our Two-Stage Plan
 
-- **Stage 1**: Precision impactor tooling ($150K, 8-12 months) — immediate gains  
+- **Stage 1**: Precision impactor tooling ($150K, 6-8 months) — immediate gains  
 - **Stage 2**: Full robotic platform ($400K, 12-18 months) — complete automation
 
 Use the sidebar to explore the Problem, Opportunity, Roadmap, Financial Model, and Investment Case.

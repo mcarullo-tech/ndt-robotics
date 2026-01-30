@@ -8,10 +8,32 @@ set_page()
 st.title("⚠️ The Problem: Manual AU-E Is Holding Us Back")
 st.divider()
 
+# --- Add CSS once, to create a flex box that centers content vertically ---
+st.markdown(
+    """
+    <style>
+      /* Adjust this to the vertical height you want both columns to share */
+      .vcenter-block {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;   /* vertical centering */
+          min-height: 460px;         /* make both columns tall enough to center within */
+      }
+      /* Optional: horizontally center content inside the flex box */
+      .vcenter-block.center-h {
+          align-items: center;
+          text-align: center;
+      }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 col1, col2 = st.columns([1.5, 1])
 
 with col1:
-    # Regular left-aligned bullets (recommended for readability)
+    st.markdown('<div class="vcenter-block">', unsafe_allow_html=True)
+
     st.markdown(
         """
         ### Current Limitations
@@ -23,16 +45,15 @@ with col1:
         """
     )
 
-    # Centered quote
     st.markdown(
         """
         <div style="
             margin-top: 10px;
-            text-align: center;
             font-size: 1.6rem;
             line-height: 1.6;
             font-style: italic;
             color: #ffffff;
+            text-align: center;
         ">
             “We’re using a hammer to conduct precision NDT analysis??”
         </div>
@@ -43,23 +64,12 @@ with col1:
         unsafe_allow_html=True
     )
 
-    # OPTIONAL: If you truly want centered bullets (less common for UX),
-    # wrap them in a centered div and constrain width for readability:
-    # st.markdown(
-    #     '''
-    #     <div style="text-align:center; margin: 0 auto; max-width: 680px;">
-    #         <ul style="list-style-position: inside; padding-left: 0;">
-    #             <li><b>Limited Accuracy & Repeatability</b> — Operator variability in force & location.</li>
-    #             <li><b>Accessibility Issues</b> — Critical areas unsafe/impossible for humans.</li>
-    #             <li><b>Scalability Challenges</b> — Growth constrained by labor.</li>
-    #             <li><b>Enterprise misalignment</b> — Premium clients expect precision tech.</li>
-    #         </ul>
-    #     </div>
-    #     ''',
-    #     unsafe_allow_html=True
-    # )
+    st.markdown('</div>', unsafe_allow_html=True)  # close vcenter-block
 
 with col2:
+    # Wrap the image in the same vertical-centering block.
+    st.markdown('<div class="vcenter-block center-h">', unsafe_allow_html=True)
     st.image("images/hammering.JPG", use_column_width=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
 add_footer()

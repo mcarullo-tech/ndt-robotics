@@ -60,16 +60,6 @@ with col1:
     # )
 
 with col2:
-    # Center the image in its column
-    st.markdown(
-        """
-        <div style="display:flex; justify-content:center; align-items:center;">
-            <img src="images/hammering.JPG" style="max-width:100%; height:auto; border-radius:6px;" />
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-    # Or simpler (not perfect in all themes):
-    # st.image("images/hammering.JPG", use_column_width=True)
+    st.image("images/hammering.JPG", use_column_width=True)
 
 add_footer()

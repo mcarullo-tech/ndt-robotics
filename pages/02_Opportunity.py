@@ -18,8 +18,8 @@ with col1:
         **Technical Benefits**
         - **Higher Accuracy** — Robotics eliminates strike variability and human error, producing consistent, repeatable data with higher confidence.
         - **Improved Accessibility** — Robots can access critical areas that are unsafe or physically impossible for human operators.
-        - **Greater Coverage** — More surface area can be inspected in the same outage window, reducing blind spots in life prediction and reline planning.
-        - **Operational Efficiency** — Faster inspections with fewer people involved, reducing outage time and resource requirements.
+        - **Greater Coverage** — More surface area can be inspected in the same inspection window, reducing blind spots in life prediction and reline planning.
+        - **Operational Efficiency** — Faster inspections with fewer people involved, reducing inspection time and resource requirements.
 
         **Client Value**
         - **Reduced Risk of Unplanned Reline** — Accessing previously unreachable areas can reveal early-stage wear that would otherwise go undetected, potentially saving millions in emergency downtime.
@@ -39,7 +39,7 @@ with col1:
             font-style: italic;
             color: #ffffff;
         ">
-            “From niche and archaic technique to premium and scalable platform”
+            From niche and archaic technique to premium and scalable platform
         </div>
         """,
         unsafe_allow_html=True

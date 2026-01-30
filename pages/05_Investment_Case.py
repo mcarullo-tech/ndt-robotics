@@ -28,7 +28,6 @@ with col1:
         |--------|----------------|
         | **Existing Market** | AU‑E already produces stable revenue — automation accelerates growth, not create it from scratch. |
         | **Market Timing** | Enterprise clients are actively seeking automated, high‑tech inspection solutions. |
-        | **Proven Technology** | We’re integrating known robotics — not speculative R&D. |
         | **De‑Risked Rollout** | Stage 1 generates early gains and cash flow, reducing Stage 2 funding pressure. |
         | **Clear Value Story** | Better accuracy + deeper coverage = better client decisions and higher willingness to pay. |
 
